@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Sebastian's Chrome Extension",
+    "version": "0.0.1",
+    "description": "Sebastian's Chrome Extension for Programming Club",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "webRequest",
+        "activeTab"
+    ],
+    "web_accessible_resources": [
+        "popup.js"
+    ]
+}
